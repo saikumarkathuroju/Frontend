@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            margin-left: 500px;
+            margin-right: 500px;
+            background-color: green;
+            color: whitesmoke;
+            text-align: center;
+        }
+        form{
+            /* background-color: aqua; */
+        }
+        .divcontainer{
+            /* height: 300px;
+            width: 500px; */
+            height: auto;
+            width: auto;
+            background-color: cornflowerblue;
+           padding-top: 40px;
+           /* text-align: center; */
+           /* margin-left: auto;
+           margin-right: auto; */
+           margin-left: 500px;
+            margin-right: 500px;
+            border: 5px dashed red;
+        }
+    </style>
+</head>
+<body>
+    
+  <h1>Registration Form</h1>
+    
+    <div class="divcontainer" style="margin-bottom:100px">
+    <form  method="post" action="../tables/ExForm.html" style="text-align: center;">
+        <label>name:</label>
+        <input type="text" size="40" placeholder="Plaease type user name here"><br><br>
+        <label>password:</label>
+        <input type="password" size="40" placeholder="please enter password here"><br><br>
+        <label for="email">email:</label>
+        <input type="email" id="email" size="40" placeholder="please enter email"><br><br>
+        <label>gender:</label>
+        <input type="radio" name="gender">male<input type="radio" name="gender">female<input type="radio" name="gender">Transgender<br>
+        <label>Interests:</label>
+        <label for="IITJEE">IIT JEE</label>
+        <input type="checkbox" name="Interest" id="IITJEE">
+        <label for="JAVA">JAVA</label>
+        <input type="checkbox" name="Interest" id="java"><br><br>
+        <label>discribe your self:</label>
+        <input hight="25" width="50"><br><br>
+        <label>submit:</label>
+        <a href="./BOLDITALIC.html"><button>click here</button></a>
+    </form>
+    <h3>End Of The form</h3>
+    
+</div>
+</body>
+</html>

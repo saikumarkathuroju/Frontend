@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <style>
+        * {
+            box-sizing: border-box;
+          }
+          .column {
+            float: left;
+            width: 50%;
+            padding: 10px;
+            height: 400px;
+          }
+          .row:after {
+            content: "";
+            display: table;
+            clear: both;
+          }
+        div{
+            float: 50%;
+        }
+        i.size{
+           font-size: 34px;
+           margin-right: 10px;
+        }
+        .spanc{
+            margin-bottom: 100px;
+            font-size: 20px;
+        }
+        input{
+            margin-top: 10px;
+        }
+        button{
+            padding: 15px;
+            border-radius: 20px;
+        }
+    </style>
+          <body>
+            <div style="background-color:#e6eded;">
+                <h1>Enter Your Details</h1>
+                <hr>
+          <div class="row">
+            <div class="column">
+                <form>
+                    <i class="fa fa-globe size" class="icon"></i><label class="spanc">Country |</label><br>
+                    <select style="width: 440px; height: 30px; margin-top: 20px;">
+                        <option value="india">India</option>
+                        <option value="america">America</option>
+                        <option value="australia">Australia</option>
+                        <option value="china">China</option>
+                        <option value="germany">Germany</option>
+                        <option value="japan">Japan</option>
+                      </select><br><br>
+                      <i class="fa fa-mobile size"></i><label class="spanc">Mobile |</label><br>
+                      <input type="number" placeholder="enter your mobile number" style="width: 440px; height: 40px; margin-top: 20px;"><br><br>
+                      <i class="fa fa-envelope size"></i><label class="spanc">Email |</label><br>
+                      <input type="mail" placeholder="eg : abc@gmail.com" style="width: 440px; height: 30px; margin-top: 20px;"><br><br>
+                      <i class="fa fa-flag size"></i><label class="spanc">State: |</label><br>
+                      <select style="width: 440px; height: 30px; margin-top: 20px;">
+                        <option value="india">AndhraPradesh</option>
+                        <option value="america">Telangana</option>
+                        <option value="australia">Karnataka</option>
+                        <option value="china">Tamilnadu</option>
+                        <option value="germany">Bihar</option>
+                        <option value="japan">UttarPradesh</option>
+                      </select><br><br>
+                </form>
+            </div>
+            <div class="column">
+                <form>
+                    <i class="fa fa-user size"></i><label class="spanc">Name |</label><br>
+                    <input type="text" placeholder="enter your name here" style="width: 440px; height: 30px; margin-top: 20px;"><br><br>
+                    <i class="fa fa-calendar-alt"></i><label class="spanc">Date Of Birth:  |</label><br>
+                    <input type="date" style="height: 30px; margin-top: 20px;"><br><br>
+                    <i class="fa fa-venus-mars"></i><label class="spanc">Gender |</label><br>
+                    <input type="radio" name="gender" value="male"><label style="font-size: 22px;">Female</label>
+<input type="radio" name="gender" value="female"> <label style="font-size: 22px;">Male</label>
+<input type="radio" name="gender" value="others"> <label style="font-size: 22px;">Others</label>  <br><br>
+<i class="fa fa-globe size" class="icon"></i><label class="spanc">District |</label><br>
+<input type="text" placeholder="enter your name here" style="width: 440px; height: 30px; margin-top: 20px;"><br><br>
+                </form>
+            </div>
+            <input type="checkbox" style="margin-top: 20px;">I agree to T&Cs and Details given above can be used to create a MyGov account on my behalf.<br><br>
+        <button style="color:#f0520e; border:1px solid">Back</button>
+        <button style="background-color:#f0520e;color: white; border: none;">Proceed</button>
+        </div>
+        <!-- <form>
+            <i class="fa fa-globe size" class="icon"></i><label class="spanc">Country |</label><br>
+    <input type="text" placeholder="select">
+        </form>
+    </div>
+    <div>
+            <i class="fa fa-globe size" class="icon"></i><span class="spanc">Country |</span><br>
+    <input type="text" placeholder="select">
+   -->
+    </div>
+</body>
+</html>
